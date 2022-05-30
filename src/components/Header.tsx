@@ -14,12 +14,12 @@ const Header: React.FC<{}> = () => {
 
   return (
     <header className="sticky top-0 z-[51] flex h-12 w-full items-center bg-gray-900 shadow-md">
-       <Image
-         src="/photo_2022-05-30_22-48-44.jpg"
-         alt="not meaningful"
-         width={64}
-         height={54}
-        />
+      <Image
+        src="/photo_2022-05-30_22-48-44.jpg"
+        alt="not meaningful"
+        width={64}
+        height={54}
+      />
       <div className="ml-4 flex items-center rounded bg-gray-50 py-[1px] px-2 sm:ml-6">
         <SearchIcon className="h-4 w-4" />
         <input
