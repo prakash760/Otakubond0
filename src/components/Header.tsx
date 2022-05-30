@@ -1,7 +1,6 @@
 import Image from 'next/image';
 
 import { useRouter } from 'next/router';
-
 import { SearchIcon } from '@heroicons/react/outline';
 
 const Header: React.FC<{}> = () => {
@@ -16,7 +15,7 @@ const Header: React.FC<{}> = () => {
   return (
     <header className="sticky top-0 z-[51] flex h-12 w-full items-center bg-gray-900 shadow-md">
       <div className="ml-4 flex items-center rounded bg-gray-50 py-[1px] px-2 sm:ml-6">
-         <Image src="/photo_2022-05-30_22-48-44.jpg" />
+         <Image src="/photo_2022-05-30_22-48-44.jpg" alt="not meaningful" />
         <SearchIcon className="h-4 w-4" />
         <input
           className="w-44 bg-transparent p-1 text-sm text-black placeholder-gray-400 outline-none sm:w-56 md:w-64 lg:w-72"
