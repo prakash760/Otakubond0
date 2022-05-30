@@ -20,7 +20,7 @@ const Header: React.FC<{}> = () => {
           alt="not meaningful"
           width={64}
           height={54}
-          />
+        />
         <SearchIcon className="h-4 w-4" />
         <input
           className="w-44 bg-transparent p-1 text-sm text-black placeholder-gray-400 outline-none sm:w-56 md:w-64 lg:w-72"
