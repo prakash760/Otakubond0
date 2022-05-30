@@ -17,8 +17,8 @@ const Header: React.FC<{}> = () => {
       <Image
         src="/photo_2022-05-30_22-48-44.jpg"
         alt="not meaningful"
-        width={64}
-        height={54}
+        width={58}
+        height={46}
       />
       <div className="ml-4 flex items-center rounded bg-gray-50 py-[1px] px-2 sm:ml-6">
         <SearchIcon className="h-4 w-4" />
