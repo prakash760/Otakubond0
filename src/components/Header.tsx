@@ -3,7 +3,6 @@ import { useRouter } from 'next/router';
 
 import { SearchIcon } from '@heroicons/react/outline';
 
-import AnimeflixIcon from '@components/AnimeFlixIcon';
 
 const Header: React.FC<{}> = () => {
   const router = useRouter();
